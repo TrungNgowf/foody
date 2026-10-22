@@ -1,0 +1,14 @@
+//
+//  Release.xcconfig
+//  Foody
+//
+//  Created by Trung Ng on 6/10/26.
+//
+
+// Compiler profile: release (Production).
+
+SWIFT_COMPILATION_MODE = wholemodule
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+ENABLE_NS_ASSERTIONS = NO
+MTL_ENABLE_DEBUG_INFO = NO
+VALIDATE_PRODUCT = YES

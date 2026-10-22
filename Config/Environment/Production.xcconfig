@@ -1,0 +1,14 @@
+//
+//  Production.xcconfig
+//  Foody
+//
+//  Created by Trung Ng on 6/10/26.
+//
+
+#include "../BuildType/Release.xcconfig"
+
+APP_DISPLAY_NAME = Foody
+APP_ENVIRONMENT = production
+API_BASE_URL = https:/$()/YOUR-PROD-API.example.com/api/v1
+PRODUCT_BUNDLE_IDENTIFIER = dev.turng.Foody
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) PRODUCTION

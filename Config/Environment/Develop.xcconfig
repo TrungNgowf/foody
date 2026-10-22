@@ -1,0 +1,14 @@
+//
+//  Dev.xcconfig
+//  Foody
+//
+//  Created by Trung Ng on 6/10/26.
+//
+
+#include "../BuildType/Debug.xcconfig"
+
+APP_DISPLAY_NAME = [DEV] Foody
+APP_ENVIRONMENT = develop
+API_BASE_URL = https:/$()/YOUR-DEV-API.example.com/api/v1
+PRODUCT_BUNDLE_IDENTIFIER = dev.turng.Foody.dev
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) DEV

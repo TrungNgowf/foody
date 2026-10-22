@@ -1,0 +1,14 @@
+//
+//  Staging.xcconfig
+//  Foody
+//
+//  Created by Trung Ng on 6/10/26.
+//
+
+#include "../BuildType/Debug.xcconfig"
+
+APP_DISPLAY_NAME = [STG] Foody
+APP_ENVIRONMENT = staging
+API_BASE_URL = https:/$()/YOUR-STAGING-API.example.com/api/v1
+PRODUCT_BUNDLE_IDENTIFIER = dev.turng.Foody.stg
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) STAGING
